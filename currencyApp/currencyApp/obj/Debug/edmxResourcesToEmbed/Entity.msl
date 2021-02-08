@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AzurepriceCurrencyModelStoreContainer" CdmEntityContainer="AzurepriceCurrencyEntities">
+    <EntitySetMapping Name="AzureAKScurrencies">
+      <EntityTypeMapping TypeName="AzurepriceCurrencyModel.AzureAKScurrency">
+        <MappingFragment StoreEntitySet="AzureAKScurrency">
+          <ScalarProperty Name="Instance" ColumnName="Instance" />
+          <ScalarProperty Name="Core" ColumnName="Core" />
+          <ScalarProperty Name="Ram" ColumnName="Ram" />
+          <ScalarProperty Name="TemporaryStorage" ColumnName="TemporaryStorage" />
+          <ScalarProperty Name="PayAsYouGo" ColumnName="PayAsYouGo" />
+          <ScalarProperty Name="OneYearReserved" ColumnName="OneYearReserved" />
+          <ScalarProperty Name="ThreeYearReserved" ColumnName="ThreeYearReserved" />
+          <ScalarProperty Name="ThreeYearReservedWithAzureHybridBenefit" ColumnName="ThreeYearReservedWithAzureHybridBenefit" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="NodeInstance" ColumnName="NodeInstance" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

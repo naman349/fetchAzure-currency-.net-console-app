@@ -1,0 +1,12 @@
+C:\Users\Naman Mittal\source\repos\currencyApp\currencyApp\bin\Debug\currencyApp.exe.config
+C:\Users\Naman Mittal\source\repos\currencyApp\currencyApp\bin\Debug\currencyApp.exe
+C:\Users\Naman Mittal\source\repos\currencyApp\currencyApp\bin\Debug\currencyApp.pdb
+C:\Users\Naman Mittal\source\repos\currencyApp\currencyApp\bin\Debug\EntityFramework.dll
+C:\Users\Naman Mittal\source\repos\currencyApp\currencyApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Naman Mittal\source\repos\currencyApp\currencyApp\bin\Debug\EntityFramework.xml
+C:\Users\Naman Mittal\source\repos\currencyApp\currencyApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Naman Mittal\source\repos\currencyApp\currencyApp\obj\Debug\currencyApp.csprojAssemblyReference.cache
+C:\Users\Naman Mittal\source\repos\currencyApp\currencyApp\obj\Debug\currencyApp.csproj.CoreCompileInputs.cache
+C:\Users\Naman Mittal\source\repos\currencyApp\currencyApp\obj\Debug\currencyApp.csproj.CopyComplete
+C:\Users\Naman Mittal\source\repos\currencyApp\currencyApp\obj\Debug\currencyApp.exe
+C:\Users\Naman Mittal\source\repos\currencyApp\currencyApp\obj\Debug\currencyApp.pdb

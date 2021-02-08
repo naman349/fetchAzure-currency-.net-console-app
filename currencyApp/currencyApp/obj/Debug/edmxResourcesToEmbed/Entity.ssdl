@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AzurepriceCurrencyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AzureAKScurrency">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Instance" Type="nvarchar" MaxLength="255" />
+    <Property Name="Core" Type="nvarchar" MaxLength="255" />
+    <Property Name="Ram" Type="nvarchar" MaxLength="255" />
+    <Property Name="TemporaryStorage" Type="nvarchar" MaxLength="255" />
+    <Property Name="PayAsYouGo" Type="nvarchar" MaxLength="255" />
+    <Property Name="OneYearReserved" Type="nvarchar" MaxLength="255" />
+    <Property Name="ThreeYearReserved" Type="nvarchar" MaxLength="255" />
+    <Property Name="ThreeYearReservedWithAzureHybridBenefit" Type="nvarchar" MaxLength="255" />
+    <Property Name="Region" Type="nvarchar" MaxLength="255" />
+    <Property Name="EntryDate" Type="datetime" />
+    <Property Name="Currency" Type="nvarchar" MaxLength="255" />
+    <Property Name="NodeInstance" Type="nvarchar" MaxLength="255" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="AzurepriceCurrencyModelStoreContainer">
+    <EntitySet Name="AzureAKScurrency" EntityType="Self.AzureAKScurrency" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AzurepriceCurrencyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AzureAKScurrency">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Instance" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Core" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Ram" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="TemporaryStorage" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PayAsYouGo" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="OneYearReserved" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ThreeYearReserved" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ThreeYearReservedWithAzureHybridBenefit" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Region" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EntryDate" Type="DateTime" Precision="3" />
+    <Property Name="Currency" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="NodeInstance" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityContainer Name="AzurepriceCurrencyEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AzureAKScurrencies" EntityType="Self.AzureAKScurrency" />
+  </EntityContainer>
+</Schema>
